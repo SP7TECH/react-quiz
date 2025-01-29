@@ -1,9 +1,15 @@
-import DateCounter from "./DateCounter";
+import Header from "./Header";
+import Quiz from "./Quiz";
 
 function App() {
   return (
-    <div>
-      <DateCounter />
+    <div className="app">
+      <Header />
+
+      <Quiz>
+        <p>1/15</p>
+        <p>Question</p>
+      </Quiz>
     </div>
   );
 }
