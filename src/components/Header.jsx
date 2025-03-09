@@ -1,4 +1,4 @@
-function Header() {
+export default function Header() {
   return (
     <header className="app-header">
       <img src="/src/assets/react.svg" alt="React logo" />
@@ -6,5 +6,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
